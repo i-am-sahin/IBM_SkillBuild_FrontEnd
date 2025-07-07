@@ -1,0 +1,21 @@
+p{
+    background-color: green;
+    font-size: 20;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: lightblue;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 30px;
+    text-align: center;
+}
+/* Styling The Classes */
+.html{
+    background-color: brown;
+}
+#name{
+    background-color: aquamarine;
+    color: black;
+}

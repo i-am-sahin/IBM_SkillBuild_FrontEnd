@@ -4,6 +4,7 @@
 <html lang="en"> 
     <!-- Head Part -->
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My window</title>
@@ -25,6 +26,8 @@
     <!-- How To Add Links -->
      <a href="https://google.com" target="_blank">Visit google</a>
 
+
+     <!-- Adding Images -->
      <img src="data:image/png;base64,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" alt="Profile_picture" srcset="">
 
      <!-- Lists -->
@@ -77,7 +80,16 @@
 
     <!-- <input type="radio" name="btn" id="btn1" > -->
 
+
+    <!-- Block VS Inline Elements -->
     <p style="background-color: blueviolet;">Sahin</p>
     <span style="background-color: red;">Sahin Islam</span>
+
+    <!-- Classes And IDs -->
+     <h1 class="html">Heading</h1>
+     <p id="name">Sahin</p>
+     <h1 class="html">Heading</h1>
+     <h5 class="html">Heading</h5>
+     <h4 class="html">Heading</h4>
 </body>
 </html>
