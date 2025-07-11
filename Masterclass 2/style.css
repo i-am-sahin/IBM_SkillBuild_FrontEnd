@@ -35,3 +35,20 @@ body{
     padding: 20px;
     
 }
+.Gallery{
+    display: grid;
+    width: 50%;
+    height: 50%;
+    grid-template-columns: repeat(autofit,minmax(250px,1fr));
+    gap: 20px;
+    padding: 10px;
+}
+.Gallery img{
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.Gallery img:hover{
+    transform: scale(1.05);
+}
